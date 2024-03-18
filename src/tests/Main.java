@@ -1,25 +1,99 @@
 package tests;
 
-import array.ExerciciosComArray;
-import lists.ExerciciosComList;
-import calculosmatematicos.NumeroPrimo;
-import calculosmatematicos.Potencia;
-import calculosmatematicos.RaizQuadrada;
-
-import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        Scanner entrada = new Scanner(System.in);
 
-        ExerciciosComList listsAlgorithms = new ExerciciosComList();
+       /* Fila numeros = new Fila(10);
+
+
+        int numero = 0;
+        for (int i = 1; i <=10; i++) {
+
+            System.out.println("digite o valor: ");
+            numero = entrada.nextInt();
+            if (numero%2==0){
+                numeros.enfileirar(numero);
+            }
+
+        }
+        numeros.mostrarFila();
+
+        numeros.elementoInicio();*/
+
+        /*ReExercitandoAlgoritimos re = new ReExercitandoAlgoritimos();
+
+        int[]numeros = {111,15,7,14,9,43,12,6,33,3 };
+
+        int[] bubbleSort2 = re.bubbleSort2(numeros);
+
+        for (int i = 0; i < bubbleSort2.length ; i++) {
+            System.out.println(bubbleSort2[i]);
+        }*/
+
+        /*Integer elemento = re.achaPosicaoElemento(numeros, 7);
+        System.out.println(elemento);
+
+
+
+
+
+         /*for (int i = 0; i < ints.length; i++) {
+            System.out.println(i + "  " + ints[i]);
+        }
+
+        /*BubbleSort bubbleSort = new BubbleSort();
+        int[] ints = bubbleSort.ordena(numeros);
+
+
+       for (int i =0; i<ints.length; i++){
+            System.out.println(ints[i]);
+        }
+
+
+       /* String paola = re.reverse("pablo");
+        System.out.println(paola);
+
+
+        /*Boolean primeOrNot = re.isPrime(84);
+        System.out.println(primeOrNot);*/
+
+
+        /*ExerciciosComList listsAlgorithms = new ExerciciosComList();
 
         java.util.List<Integer> numbers = new ArrayList<>();
-        numbers.add(8);
+        numbers.add(1);
         numbers.add(9);
         numbers.add(7);
         numbers.add(10);
-        numbers.add(4);
+        numbers.add(4);*/
 
+        /*ReverseString reverseString = new ReverseString();
+        int[]numeros = {2,5,7,8,9,43,12,6};
+
+        int[] ints = reverseString.primeOrNot(numeros);
+        for (int i: ints) {
+            System.out.println(i);
+        }*/
+
+        //String lua = reverseString.reverse2("lua");
+        // System.out.println(lua);
+
+        //String luana = reverseString.reverseString("luana");
+        // System.out.println(luana);
+
+        /*
+        int maior = numbers.get(0);
+        for (int i=1; i<numbers.size(); i++){
+            if (maior<numbers.get(i)){
+                maior = numbers.get(i);
+            }
+        }
+        return maior;
+        */
 
 
         //Integer result = listsAlgorithms.findMin(numbers);
@@ -53,7 +127,7 @@ public class Main {
         //Fatorial fatorial = new Fatorial();
         //fatorial.fatorialSoma(6);
 
-        Potencia potencia = new Potencia();
+        /* Potencia potencia = new Potencia();
         //potencia.potencia(3, 2);
 
         NumeroPrimo numeroPrimo = new NumeroPrimo();
@@ -107,9 +181,9 @@ public class Main {
         /*Integer[] sortAsc = array1.bubbleSortDesc(b);
         for (int i=0; i<sortAsc.length; i++ ) {
             System.out.println(sortAsc[i]);*/
-
+/*
         String word = "ssss";
-        String word2 = "caas";
+        String word2 = "caas"; */
 
         //Boolean palindromo = array1.isPalindromo(word);
         //System.out.println(palindromo);
@@ -117,4 +191,4 @@ public class Main {
         //boolean anagrama = array1.isAnagrama(word, word2);
         //System.out.println(anagrama);
     }
-    }
+}
